@@ -1,0 +1,54 @@
+.venue-form-container {
+    max-width: 400px;
+    margin: 2rem auto; /* Added margin from the top */
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.venue-form-heading {
+    margin-bottom: 1rem; /* Margin between heading and form */
+    font-weight: 500;
+}
+
+.venue-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    text-align: left; /* Align labels and inputs to the left */
+}
+
+.venue-form-label {
+    margin-bottom: 0.5rem;
+}
+
+.venue-form-input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.venue-form-input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.submit-button-venue {
+    padding: 0.75rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Signika", sans-serif;
+}
+
+form input {
+  height: 40px;
+  border: 1px solid #8dc63f;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
+  outline: none;
+  margin-top: 5px;
+  font-size: 16px;
+  color: rgb(77, 77, 77);
+}
+
+form input:focus {
+  border: 1px solid #0d6db7;
+}
+
+form label {
+  color: #0d6db7;
+}
+
+select {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  border: 1px solid #8dc63f;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  outline: none;
+  margin-top: 5px;
+  font-size: 16px;
+  color: rgb(77, 77, 77);
+  background: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZmZjt9LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNC45NSIgaGVpZ2h0PSIxMCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIxLjQxIDQuNjcgMi40OCAzLjE4IDMuNTQgNC42NyAxLjQxIDQuNjciLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMy41NCA1LjMzIDIuNDggNi44MiAxLjQxIDUuMzMgMy41NCA1LjMzIi8+PC9zdmc+)
+    no-repeat;
+  background-position: right 5px top;
+  appearance: none;
+  padding: 4px 20px;
+}
+
+option {
+  height: 60px;
+}
+
+@media only screen and (min-width: 2000px) {
+  body {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 2600px) {
+  body {
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 80%;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 3500px) {
+  body {
+    margin-left: 33%;
+    margin-right: 33%;
+    width: 34%;
+    height: 70%;
+  }
+}
+
+@media only screen and (min-width: 4000px) {
+  body {
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+    width: 25%;
+    height: 60%;
+  }
+}
